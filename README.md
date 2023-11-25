@@ -35,3 +35,7 @@ and it's output
 SlowClass#make_it_so   time: 0.011738444009097293   count: 1
 SlowClass#slow_method   time: 0.011554540949873626   count: 10
 ```
+
+### Crystal version
+
+WIP, not working yet

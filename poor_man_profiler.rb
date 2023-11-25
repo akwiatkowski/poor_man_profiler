@@ -57,7 +57,7 @@ def wrap_klass(klass)
     puts "+ override method for #{klass}##{method_name}"
 
     # method params
-    klass.send(:instance_method, method_name).parameters.map { |a| a[1] }
+    params = klass.send(:instance_method, method_name).parameters.map { |a| a[1] }
 
     # rename method
     wrapped_method = "_wrapped_#{method_name}".to_sym
